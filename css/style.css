@@ -1,0 +1,41 @@
+body {
+        height: 100vh;
+        background-color: #343a40;
+        color: #fff;
+
+
+
+}
+
+.container {
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+
+
+}
+
+.parents {
+        width: 100%;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        position: fixed;
+        bottom: 0;
+}
+
+
+/* offsetHeight */
+/* offsetWidth */
+.toastAlert {
+        background-color: #28a745;
+        padding: 10px;
+        position: relative;
+        /* sent box outside of screen. */
+        /* bottom: -50px;  */
+        transition: bottom .5s ease-in-out;
+}
